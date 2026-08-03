@@ -95,7 +95,6 @@ function initBackgroundMusic() {
 
   // Initialize playback state when story.html opens
   if (path.includes("wish.html") && !sessionStorage.getItem("musicInitialized")) {
-    sessionStorage.setItem("musicPlaying", "true");
     sessionStorage.setItem("musicTime", "0");
     sessionStorage.setItem("volumeIncreased", "false");
     sessionStorage.setItem("musicInitialized", "true");
